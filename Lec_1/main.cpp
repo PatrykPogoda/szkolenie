@@ -1,8 +1,14 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
-const int x=20,y=20,z=17;
-char tab[x][y];
+//const int x=20,y=20,z=17;
+//char tab[x][y];
+
+struct Plotno{
+  char tab[20][20]; // maksymalny rozmiar plotna to 20x20
+};
+
 void pr()
 {
     for(int i=0;i<x;i++)
@@ -32,6 +38,7 @@ void tr()
     }
 
 }
+
 
 void rysTab(char a='.') //wype³nia '.' je¿eli nie podane zostanie inaczej: rysTab();
 {
@@ -67,6 +74,7 @@ int main()
     cin>>a;
         tr();
         pr();
+        //kolo();
         rysTab(a);
     return 0;
 }

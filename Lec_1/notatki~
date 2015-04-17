@@ -1,0 +1,7 @@
+
+const char * a; = char const * a; //wskaznik na stale znaki
+char *const a; // a zawsze wskazuje na ten sam obiekt
+
+
+char const * a // a jest staly wskaznik na chary
+const char * const a; = char const * const a; // staly wskaznik na stale dane
