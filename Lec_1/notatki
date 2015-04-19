@@ -8,4 +8,6 @@ const char * const a; = char const * const a; // staly wskaznik na stale dane
 
 const char &d; // referencja nie moze zamienic obiektu na ktory wskazuje  tu chodzi rowniez o to, ze sam obiekt nie moze byc zmieniony
 
-consty w funkcjach = funkcja nie zmienia obiektu 
+consty w funkcjach = funkcja nie zmienia obiektu
+
+. 

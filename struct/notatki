@@ -1,0 +1,24 @@
+1. Struct
+Struktury skladnia:
+  
+  struct Nazwa
+  { 
+    ...
+  };
+
+- moga przechowywac rozne typy danych
+- deklaracja wskaznika:
+	Nazwa * wsk;
+
+- stwarzanie obiektu:
+	Nazwa_typu nazwa_obiektu;
+
+- odwolanie sie do elementow skladowych:
+	przez obiekt:
+	nazwa_obiektu.nazwa_skladowej
+
+	przez wskaznik
+	Nazwa *wsk = &nazwa_obiektu;
+	wsk->nazwa skladowej;
+
+ZAWSZE ODWOLUJEMY SIE DO SKLADOWYCH JAKIEGOS OBIEKTU A NIE DO SKLADOWYCH KLASY (A CO JEZELI CHCEMY NADAC DEFAULTOWA WARTOSC SKLADOWEJ KLASY?)

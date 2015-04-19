@@ -1,0 +1,13 @@
+1. Struct
+Struktury skladnia:
+  
+  struct Nazwa
+  { 
+    ...
+  };
+
+- moga przechowywac rozne typy danych
+- deklaracja wskaznika:
+	Nazwa * wsk;
+
+
