@@ -1,0 +1,53 @@
+Pamiec:
+
+Kilka obszarow w pamieci, stosujemy rozne metody:
+
+	-stos(FIFO):
+	struktura danych, ktora sie rozszeza, dodajemy na gorze stosu (i zdejmujemy z gory)
+	do zmiennych lokalnych, parametry funkcji (jak funkcja wywola nastepna to parametry ten nowej na gore)
+	
+
+	-
+	zmienne globalne
+
+
+	-sterta:
+	mozna alokowac dolnie dynamicznie (w dowolnym momencie alokuje i dowolnie zwalniam), trzeba samemu zadbac o to, zeby wyczyscic pamiec
+
+		jak?
+
+	new/delete:
+	
+	int * NAZWA = new int; (jak stracimy wskaznik to nie bedziemy sie mogli dostac do odpowiedniego miejsca na stercie, ani zwolnic tego fragmentu pamieci
+	
+	delete NAZWA; (dobra praktyka: nulowac wskaznik po deletowaniu tego co jest na stercie - bo wskaznik dalej istnieje i wskazuje na ten frament, ktory 
+	jest juz wyczyszczony i przez to mozemy kasowac cos co pozniej bedzie alkowane w tym miescu)
+
+	
+ZASTOSOWANIE:
+
+	- TABLICE
+
+	int * NAZWA_T = new int[liczba_elementow]; // liczba_elementow moze byc zmienna, a nie jak wczesniej stala
+	odwolanie sie:
+		-  NAZWA_T[2] = 10;
+		-*(NAZWA_T+3) = 10;
+
+
+	delete[] NAZWA_T; //bez klamerek moze zadzialac poprawnie... ale nie musi (NULLowanie tez sie moze przydac)
+
+
+ZWRACANIE Z FUNKCJI:
+
+	int* func(int a)
+	{
+		int * dynamiczna = new int[a];
+		return dynamiczna;
+	}
+
+	main()
+{
+	int * tablice = NULL;
+	tablice = func(10); //potem przypisz efekt funkcji do wskaznika
+
+		

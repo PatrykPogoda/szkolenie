@@ -1,0 +1,15 @@
+14
+AJAN Anna Janiszewska RAD7L
+KAAN Anna Szczurowska RAD7L
+APAB Artur Pabjanczyk RAD1L
+MACY Marcin Cygan RAD7L
+PPOG Patryk Pogoda RAD2L
+PSZR Pawel Szremski RAD2L
+PKUL Piotr Kulawiecki RADCL
+WIBI William Bitha RADCL
+RKAW Robert Kawecki RAD7L
+MICT Michal Tarnawiecki RAD2L
+AGAD Anna Gadzinowska RAD7L
+MTYB Michal Tybora RAD5L
+ROGR Robert Grams RAD7L
+WOKA Karol Wojtyla RADCL
