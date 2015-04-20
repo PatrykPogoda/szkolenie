@@ -10,4 +10,17 @@ Struktury skladnia:
 - deklaracja wskaznika:
 	Nazwa * wsk;
 
+- stwarzanie obiektu:
+	Nazwa_typu nazwa_obiektu;
 
+- odwolanie sie do elementow skladowych:
+	przez obiekt:
+	nazwa_obiektu.nazwa_skladowej
+
+	przez wskaznik
+	Nazwa *wsk = &nazwa_obiektu;
+	wsk->nazwa skladowej;
+
+- jej atrybuty sa domyslnie publiczne
+
+ZAWSZE ODWOLUJEMY SIE DO SKLADOWYCH JAKIEGOS OBIEKTU A NIE DO SKLADOWYCH KLASY (A CO JEZELI CHCEMY NADAC DEFAULTOWA WARTOSC SKLADOWEJ KLASY?)
