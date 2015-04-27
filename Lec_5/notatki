@@ -1,0 +1,21 @@
+KLASY 
+
+Lista inicjalizacyjna - konstruktor:
+
+class A{
+public:
+
+	A(){a = 0;}
+	A(int b){a=b;}
+
+private:
+int a;
+}
+main()
+{
+
+	A a_obj; // a = 0
+	A a1_boj(20) // a = 20
+}
+
+Ulamek dodawanie(const Ulamek &b) const;  //drugi const dotyczy obiektu na ktorym wywolywana jest metoda - nie mozna go zmienic)

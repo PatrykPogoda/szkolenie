@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1429696263 source:c:\users\patryk\desktop\szkoleniecpp\lec_5\main.cpp
+	<iostream>
+	"Prost.h"
+
+1429696287 source:c:\users\patryk\desktop\szkoleniecpp\lec_5\src\prost.cpp
+	"Prost.h"
+	<iostream>
+
+1429696008 c:\users\patryk\desktop\szkoleniecpp\lec_5\include\prost.h
+

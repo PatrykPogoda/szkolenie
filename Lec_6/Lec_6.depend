@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1430128472 source:c:\users\patryk\desktop\szkoleniecpp\lec_6\main.cpp
+	<iostream>
+	"Ulamek.h"
+
+1430128068 c:\users\patryk\desktop\szkoleniecpp\lec_6\include\ulamek.h
+
+1430128552 source:c:\users\patryk\desktop\szkoleniecpp\lec_6\src\ulamek.cpp
+	"Ulamek.h"
+
