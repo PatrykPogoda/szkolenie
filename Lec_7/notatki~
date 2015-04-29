@@ -1,0 +1,4 @@
+Dynamiczna alokacja dwuwymiarowej tablicy:
+
+char ** tab;
+tab = new char*[x];

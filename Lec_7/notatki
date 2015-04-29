@@ -1,0 +1,15 @@
+Dynamiczna alokacja dwuwymiarowej tablicy:
+
+char ** tab;
+tab = new char*[x];
+
+
+kostruktor kop:
+Plotno(const Plotno &pl){}
+
+
+
+pd
+poprawic operator przypisu
+
+

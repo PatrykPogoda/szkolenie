@@ -11,6 +11,8 @@ Ulamek dodawanie(const Ulamek &b) const;  //drugi const dotyczy obiektu na ktory
 
 Ulamek odejmowanie(Ulamek b);
 
+Ulamek operator+(const Ulamek &ul) const;
+
 
 };
 #endif // ULAMEK_H
