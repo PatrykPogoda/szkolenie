@@ -2,8 +2,8 @@
 #include <cmath>
 
 using namespace std;
-//const int x=20,y=20,z=17;
-//char tab[x][y];
+const int x=20,y=20,z=17;
+char tab[x][y];
 
 struct Plotno{
   char tab[20][20]; // maksymalny rozmiar plotna to 20x20

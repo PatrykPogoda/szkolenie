@@ -24,6 +24,15 @@ Ulamek Ulamek::dodawanie(const Ulamek &b) const
     return Ulamek (licznik_tmp, mianownik_tmp);
 }
 
+Ulamek Ulamek::operator+(const Ulamek &b) const
+{
+    int mianownik_tmp = 0;
+    int licznik_tmp = 0;
+    mianownik_tmp = wspMian(mianownik, b.mianownik);
+    licznik_tmp = ((licznik*b.mianownik)+(b.licznik*mianownik));
+    return Ulamek (licznik_tmp, mianownik_tmp);
+}
+
 Ulamek Ulamek::odejmowanie(Ulamek b)
 {
     int licznik_tmp = 0;
