@@ -2,6 +2,7 @@ Dynamiczna alokacja dwuwymiarowej tablicy:
 
 char ** tab;
 tab = new char*[x];
+<<<<<<< HEAD
 
 
 kostruktor kop:
@@ -13,3 +14,5 @@ pd
 poprawic operator przypisu
 
 .
+=======
+>>>>>>> 1899e9121ccb91143612d55ae250c444d27eb428

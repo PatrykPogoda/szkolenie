@@ -41,7 +41,11 @@ public:
                 }
             }
     }
+<<<<<<< HEAD
     Plotno & operator=(const Plotno &pl) //przec. operatora
+=======
+    Plotno & operator=(const Plotno &pl)
+>>>>>>> 1899e9121ccb91143612d55ae250c444d27eb428
     {
          if(this != &pl)
          {
@@ -63,6 +67,13 @@ public:
 
          }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 1899e9121ccb91143612d55ae250c444d27eb428
         return *this;
     }
 

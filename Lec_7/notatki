@@ -12,4 +12,8 @@ Plotno(const Plotno &pl){}
 pd
 poprawic operator przypisu
 
+<<<<<<< HEAD
 dodatk do testu
+=======
+
+>>>>>>> 1899e9121ccb91143612d55ae250c444d27eb428
